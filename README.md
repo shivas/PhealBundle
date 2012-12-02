@@ -63,7 +63,7 @@ Setting this option to True makes factory to reconfigure PhealConfig singleton w
 
 ## TODO
 - more documentation
-- UNIT tests
+- more UNIT tests
 
 ## LINKS
 - [Github](http://github.com/ppetermann/pheal)
