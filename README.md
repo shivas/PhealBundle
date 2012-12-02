@@ -1,12 +1,14 @@
 # PhealBundle
 
+[![Build Status](https://secure.travis-ci.org/shivas/PhealBundle.png?branch=master)](https://travis-ci.org/shivas/PhealBundle)
+
 Copyright (C) 2012 by Audrius Karabanovas
 All rights reserved.
 
 PhealBundle is factory/wrapper for pheal/pheal library available on Packagist
 
 ## LICENSE
-Pheal is licensed under a MIT style license, see LICENSE
+PhealBundle is licensed under a MIT style license, see LICENSE
 for further information
 
 ## FEATURES
@@ -23,6 +25,18 @@ for further information
 
 ### composer
 PhealBundle is available as package shivas/pheal-bundle through packagist on composer http://getcomposer.org
+
+Add to composer.json
+
+    "shivas/pheal-bundle": "dev-master"
+
+Run composer update to install
+
+    php composer.phar update
+
+Add Bundle to your AppKernel.php
+
+    new shivas\PhealBundle\shivasPhealBundle(),
 
 ## USAGE
 
