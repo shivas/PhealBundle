@@ -1,0 +1,27 @@
+{
+    "name": "shivas/pheal-bundle",
+    "type": "symfony-bundle",
+    "description": "pheal/pheal wrapper/factory bundle for use with Symfony2",
+    "keywords": ["EVE Online", "Pheal", "EVE API"],
+    "homepage": "http://github.com/shivas/PhealBundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Audrius Karabanovas",
+            "email": "audrius.karabanovas@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "pheal/pheal": "dev-master"
+    },
+    "require-dev": {
+        "symfony/framework-bundle": ">=2.1,<2.2-dev",
+        "pheal/pheal": "dev-master"
+    },
+    "autoload": {
+        "psr-0": { "shivas\\PhealBundle": "" }
+    },
+    "minimum-stability": "dev",
+    "target-dir": "shivas/PhealBundle"
+}
