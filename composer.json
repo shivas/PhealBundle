@@ -16,7 +16,7 @@
         "pheal/pheal": "dev-master"
     },
     "require-dev": {
-        "symfony/framework-bundle": ">=2.1,<2.2-dev",
+        "symfony/framework-bundle": ">=2.1,<2.4-dev",
         "pheal/pheal": "dev-master"
     },
     "autoload": {
