@@ -22,6 +22,6 @@
     "autoload": {
         "psr-0": { "shivas\\PhealBundle": "" }
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "target-dir": "shivas/PhealBundle"
 }
